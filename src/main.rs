@@ -1,3 +1,9 @@
+extern crate cursive;
+
+use cursive::Cursive;
+
 fn main() {
-    println!("Hello, world!");
+    let mut cursive = Cursive::default();
+
+    cursive.run();
 }
